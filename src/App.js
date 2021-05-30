@@ -23,7 +23,7 @@ function App() {
     { name: 'article', order: 3 },
   ])
 
-  //useContext 이용하여 하위 컴포넌트에 상태 전달
+  //useContext 이용하여 하위 컴포넌트에 상태 전달.
   const store = {
     ready,
     setReady,

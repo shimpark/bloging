@@ -29,12 +29,12 @@ function Header(props) {
         </Button>
         <Link to="/">
           <Button id="title" startIcon={<img id="logo" alt="logo" src={process.env.PUBLIC_URL + '/images/imcat_64.png'} />} onClick={closeMenuMobile}>
-            임기의 코딩 블로그
+            블로그
           </Button>
         </Link>
         <Button className="hover profile" onClick={toggleSetting}>
           {!store.login ? (
-            <AccountCircleIcon/>
+            <AccountCircleIcon />
           ) : (
             <img
               alt="PROFILE"
